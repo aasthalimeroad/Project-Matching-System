@@ -8,7 +8,11 @@
 # For a containerized dev environment, see Dev Containers: https://guides.rubyonrails.org/getting_started_with_devcontainer.html
 
 # Make sure RUBY_VERSION matches the Ruby version in .ruby-version
+<<<<<<< HEAD
 ARG RUBY_VERSION=3.3.0
+=======
+ARG RUBY_VERSION=3.4.1
+>>>>>>> 4eeef5c (Created all the models)
 FROM docker.io/library/ruby:$RUBY_VERSION-slim AS base
 
 # Rails app lives here

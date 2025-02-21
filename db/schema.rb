@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema[8.0].define(version: 2025_02_21_055931) do
+=======
+ActiveRecord::Schema[8.0].define(version: 2025_02_21_055813) do
+>>>>>>> 4eeef5c (Created all the models)
   create_table "assignments", force: :cascade do |t|
     t.integer "user_id", null: false
     t.integer "project_role_id", null: false
